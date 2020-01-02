@@ -10,10 +10,24 @@ end
 
 def get_title
     post_title = ARGV[0]
+    if post_title.nil?
+        post_title = "default-title"
+    else
+        post_title
+    end
 end
 
 current_time = get_time
 date_format = format_date(current_time)
 post_title = get_title
 
-File.open("./_posts/#{date_format}-#{post_title}.md", 'w+'){|f| f.write("tweeting, miaw, lol")}
+post_template = 
+"---
+layout: post
+title: '#{post_title}'
+date: #{get_time}
+categories: []
+---
+"
+
+File.open("./_posts/#{date_format}-#{post_title}.md", 'w+'){|f| f.write("#{post_template}")}
