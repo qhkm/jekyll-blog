@@ -17,16 +17,26 @@ def get_title
     end
 end
 
+def get_categories
+    categories = ARGV[1]
+    if categories.nil?
+        categories_in_arr = []
+    else 
+        categories_in_arr = categories.split(",")
+    end
+end
+
 current_time = get_time
 date_format = format_date(current_time)
 post_title = get_title
+post_categories = get_categories
 
 post_template = 
 "---
 layout: post
 title: '#{post_title}'
 date: #{get_time}
-categories: []
+categories: #{post_categories}
 ---
 "
 
