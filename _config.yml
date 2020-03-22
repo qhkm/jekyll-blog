@@ -1,9 +1,12 @@
-title: Stack Problems
-description: My Personal Stack Problems
+title: Software development, productivity, life wellbeing, reading stuff.
+description: Blog for me to dump all the things that i learn recently
 author: Qaiyyum Hakimi
 github: https://github.com/qhkm92
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
+about: Fullstack developer for a internet marketing company in Tokyo.
+I've made quite a few web apps, especially in react, typescript, node.
+Now i'm learning golang and backend as a whole, to improve my skills.
+If you are interested to collaborate more, feel free to contact me!
+disqus_shortname: blogging
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
