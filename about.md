@@ -4,6 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+Fullstack developer for a internet marketing company in Tokyo.
+I've made quite a few web apps, especially in react, typescript, node.
+Now i'm learning golang and backend as a whole, to improve my skills.
+If you are interested to collaborate more, feel free to contact me!
 
-email: agus[at]python.web.id
+email: qhkmdev90@gmail.com
