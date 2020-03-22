@@ -21,7 +21,7 @@ layout: default
     {% if paginator.previous_page %}
     <li>
       <a
-        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        href="{{ paginator.previous_page_path | prepend: site.baseurl/blog | replace: '//', '/' }}"
         >&laquo;</a
       >
     </li>
@@ -40,7 +40,7 @@ layout: default
     {% else %}
     <li>
       <a
-        href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
+        href="{{ site.paginate_path | prepend: site.baseurl/blog | replace: '//', '/' | replace: ':num', page }}"
         >{{ page }}</a
       >
     </li>
@@ -51,7 +51,7 @@ layout: default
     {% if paginator.next_page %}
     <li>
       <a
-        href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        href="{{ paginator.next_page_path | prepend: site.baseurl/blog | replace: '//', '/' }}"
         >&raquo;</a
       >
     </li>
