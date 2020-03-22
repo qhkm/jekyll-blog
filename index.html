@@ -21,7 +21,7 @@ layout: default
     {% if paginator.previous_page %}
     <li>
       <a
-        href="{{ paginator.previous_page_path | prepend: site.url | replace: '//', '/' }}"
+        href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
         >&laquo;</a
       >
     </li>
